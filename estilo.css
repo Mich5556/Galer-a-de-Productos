@@ -1,0 +1,67 @@
+body{
+    background: #f2f2f2;
+}
+
+img{
+    vertical-align: top;
+}
+
+.contenedor{
+   /* border: 2px solid red;*/
+    overflow: hidden;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+.contenedor h3{
+    font-size: 33px;
+    color: rgb(195, 198, 221);
+    margin-bottom: 10px;
+}
+.contenedor p{
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+}
+.card{
+    display: flex;
+    justify-content: space-around;/*centrea las imagenes*/
+    flex-wrap: wrap;
+}
+
+.content-card{
+    
+    width: 31%;
+    box-shadow: 0 0 7px 0 rgba(0,0,0, .5); /*le da borde sombreadito a los recuadros*/
+    overflow: hidden;
+    height: 550px;
+    /*border: solid 1px;*/
+    border-radius: 10px;
+}
+
+.content-card img{
+    
+    width: 100%;
+    height: 100%;
+    object-fit: cover;  /*La propiedad CSS object-fit especifica como el 
+                        contenido de un elemento remplazado debería adaptarse según el alto y ancho de su contenedor .*/
+}
+
+.people{
+    height: 60%;
+}
+
+.texto-team{
+    padding-top: 1px;
+    height: 40%;
+    width: 100%;
+    background-color: rgb(194, 179, 179);
+    border-radius: 10px;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+   
+  
+}
+
+
+
